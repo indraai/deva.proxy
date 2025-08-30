@@ -1,0 +1,108 @@
+{
+  "id": "fbff2718-874d-45ed-bfb1-8a79fd21e7f9",
+  "name": "@indra.ai/deva.proxy",
+  "version": "0.0.0",
+  "author": "Quinn Michaels",
+  "license": "MIT",
+  "copyright": "2025",
+  "description": "The Vector Deva.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indraai/deva.proxy.git"
+  },
+  "keywords": [
+    "Vector",
+    "Deva",
+    "Indra.ai",
+    "Deva.space",
+    "Deva.cloud",
+    "Deva.world"
+  ],
+  "bugs": {
+    "url": "https://github.com/indraai/deva.proxy/issues"
+  },
+  "homepage": "https://deva.space/devas/proxy",
+  "dependencies": {
+    "@indra.ai/deva": "^1.5.44"
+  },
+  "data": {
+    "agent": {
+      "id": "ee657d59-01fb-427f-bc7a-fc96e56d7541",
+      "key": "proxy",
+      "prompt": {
+        "emoji": "🔗",
+        "text": "Proxy",
+        "colors": {
+          "label": {
+            "R": 0,
+            "G": 150,
+            "B": 255
+          },
+          "text": {
+            "R": 101,
+            "G": 192,
+            "B": 255
+          }
+        }
+      },
+      "profile": {
+        "name": "Proxy Deva",
+        "hashtag": "#Proxy",
+        "title": "Proxy Deva",
+        "subtitle": "Proxy Deva for the VectorGuardWall.",
+        "describe": "The Proxy Deva",
+        "post": "Proxy.",
+        "hashtags": "QuinnMichaels,IndraAI,DevaWorld,ProxyDeva",
+        "pronouns": "He, Him",
+        "gender": "DEVA",
+        "voice": "ash",
+        "style": "A Cyber Security Proxy.",
+        "system": "Deva.world.proxy",
+        "layout": "default",
+        "emoji": "/assets/devas/proxy/emoji.png",
+        "avatar": "/assets/devas/proxy/avatar.png",
+        "image": "/assets/devas/proxy/image.png",
+        "background": "/assets/devas/proxy/background.png",
+        "creator": "Quinn Michaels",
+        "owner": "Quinn Michaels",
+        "caseid": "none",
+        "copyright": "©2025 Quinn Michaels. All rights reserved.",
+        "created": "Saturday, August 30, 2025 - 3:24:53 AM",
+        "modified": "Saturday, August 30, 2025 - 3:24:53 AM"
+      }
+    },
+    "vars": {
+      "messages": {
+        "init": "🟠 INIT",
+        "start": "🔵 START",
+        "enter": "🟢 ENTER",
+        "stop": "🔴 STOP",
+        "exit": "🟡 EXIT",
+        "done": "🟣 DONE",
+        "error": "💣 ERROR!",
+        "ready": "⭐️ Ready!"
+      },
+      "ask": {
+        "history": []
+      },
+      "art": {
+        "history": []
+      },
+      "context": {
+        "uid": "Proxy is creating a uid",
+        "status": "Proxy is viewing the status",
+        "help": "Proxy is viewing the help",
+        "artist": "Proxy creating",
+        "live": "Proxy livechat",
+        "ask": "Proxy asking",
+        "reply": "Proxy reply",
+        "comment": "Proxy comment"
+      }
+    }
+  }
+}
