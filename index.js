@@ -1,5 +1,9 @@
-// Copyright (c)2025 Quinn Michaels
-// Vector Deva
+"use strict";
+// Copyright ©2025 Quinn A Michaels; All rights reserved. 
+// Legal Signature Required For Lawful Use.
+// Distributed under VLA:46458400884752399767 LICENSE.md
+
+// Proxy Deva
 
 import Deva from '@indra.ai/deva';
 import pkg from './package.json' with {type:'json'};
@@ -23,10 +27,11 @@ const info = {
   git: pkg.repository.url,
   bugs: pkg.bugs.url,
   license: pkg.license,
+  VLA: pkg.VLA,
   copyright: pkg.copyright
 };
 
-const VECTOR = new Deva({
+const PROXY = new Deva({
   info,
   agent,
   vars,
@@ -37,53 +42,27 @@ const VECTOR = new Deva({
   },
   listeners: {
     'devacore:question'(packet) {
-      const echo = this.methods.echo('proxy', 'q', packet);
+      this.methods.echo(agent.key, 'q', packet);
     },
     'devacore:answer'(packet) {
-      const echo = this.methods.echo('proxy', 'a', packet);
+      this.methods.echo(agent.key, 'a', packet);
     }
   },
   modules: {},
   devas: {},
-  func: {
-    echo(opts) {
-      const {id, agent, client, md5, sha256, sha512} = opts;
-      const created = Date.now();
-    
-      this.action('func', `echo:${id}`);
-      this.state('set', `echo:${id}`);
-      const echo_data = [
-        `::begin:guard:${id}`,
-        `transport: ${id}`, 
-        `client: ${client.profile.id}`, 
-        `agent: ${agent.profile.id}`, 
-        `created: ${created}`, 
-        `md5: ${md5}`, 
-        `sha256:${sha256}`, 
-        `sha512:${sha512}`,
-        `::end:guard:${id}`,
-      ].join('\n');
-    
-      // stub for later features right now just echo into the system process for SIGINT monitoring.
-      const echo = spawn('echo', [echo_data])
-      echo.stdout.on('data', data => {
-        this.state('data', `echo:stdout:${id}`);
-      });
-      echo.stderr.on('data', err => {
-        this.state('error', `echo:stderr:${id}`);
-        this.error(err, opts);
-      });
-      echo.on('close', data => {
-        this.state('close', `echo:${id}`);        
-      });
-      this.state('return', `echo:${id}`);
-      return echo_data;
-    }    
-  },
+  func: {},
   methods: {},
+  onInit(data, resolve) {
+    const {personal} = this.license(); // get the license config
+    const agent_license = this.info().VLA; // get agent license
+    const license_check = this.license_check(personal, agent_license); // check license
+    // return this.start if license_check passes otherwise stop.
+    return license_check ? this.start(data, resolve) : this.stop(data, resolve);
+  },
   onReady(data, resolve) {
-    this.prompt(this.vars.messages.ready);
-    return resolve(data);    
+    const {VLA} = this.info();
+    this.prompt(`${this.vars.messages.ready} > VLA:${VLA.uid}`);
+    return resolve(data);
   },
   onError(data, err, reject) {
     this.prompt(this.vars.messages.error);
@@ -91,5 +70,5 @@ const VECTOR = new Deva({
     return reject(err);
   },
 });
-export default VECTOR
+export default PROXY
 

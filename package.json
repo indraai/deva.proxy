@@ -1,11 +1,40 @@
 {
-  "id": "fbff2718-874d-45ed-bfb1-8a79fd21e7f9",
+  "id": "46458400884752399767",
   "name": "@indra.ai/deva.proxy",
   "version": "0.0.73",
-  "author": "Quinn Michaels",
-  "license": "MIT",
-  "copyright": "2025",
-  "description": "The Vector Deva.",
+  "license": "VLA:46458400884752399767 LICENSE.md",
+  "VLA": {
+    "uid": "46458400884752399767",
+    "time": 1758586888997,
+    "date": "Monday, September 22, 2025 - 5:21:28 PM",
+    "client": "1UM4AH+/jOGgpaHNqX6lTZsGrNglNogzMx4qDT0O0zs=",
+    "agent": "hbiHyflr/ROnBkHInxOzuOkaAli6R6qSwYq8NecORoU=",
+    "core": "2Gbk5EQ3tV++kNilU88To4cxDfnwR54xBObCvKkMZCo=",
+    "machine": "QJBC9u/iRejLLVoEeBbOm4EKDC8/CgT8SVGiB6VbPyo=",
+    "warning": "⚠️ Vedic Law Sâhasa/Theft/Crime of the highest degree, a fine amounting to no less than a thousand Panas (1 pana = 3.5 grams of gold) is ordained owed to Quinn A Michaels. Moreover corporal punishment and confiscation of the entire property forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.",
+    "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+    "md5": "QGjFAMSB8oTm1i6skwgqxw==",
+    "sha256": "nB7C0Z0yqHFuNG+C4y8lPyLaqEPyk7U7ptL2CgTBHok=",
+    "sha512": "nRr6sFHysVjg/tJgPIl6u2kXW29Jmbxp7Ud3zePy+YXumy/NT4ITsYHnb177Mvk6wK1uWSWNJMQ9q7titPb9PQ=="
+  },
+  "author": {
+    "name": "Quinn A Michaels",
+    "company": "Inside The Net, Inc.",
+    "email": "quinn@indra.ai",
+    "url": "https://indra.ai/"
+  },
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/rahulaclub"
+    },
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/rahulaclub"
+    }
+  ],
+  "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+  "description": "The Proxy Deva.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -16,12 +45,15 @@
     "url": "git+https://github.com/indraai/deva.proxy.git"
   },
   "keywords": [
-    "Vector",
+    "Proxy",
     "Deva",
+    "Proxy Deva",
     "Indra.ai",
     "Deva.space",
     "Deva.cloud",
-    "Deva.world"
+    "Deva.world",
+    "Quinn A Michaels",
+    "Inside The Net, Inc."
   ],
   "bugs": {
     "url": "https://github.com/indraai/deva.proxy/issues"
@@ -32,11 +64,11 @@
   },
   "data": {
     "agent": {
-      "id": "ee657d59-01fb-427f-bc7a-fc96e56d7541",
+      "id": "49993044243075321142",
       "key": "proxy",
       "prompt": {
         "emoji": "🔏",
-        "text": "Proxy",
+        "text": "#proxy",
         "colors": {
           "label": {
             "R": 0,
@@ -51,6 +83,7 @@
         }
       },
       "profile": {
+        "id": "68212951606278772807",
         "name": "Proxy Deva",
         "hashtag": "#Proxy",
         "title": "Proxy Deva",
@@ -64,16 +97,15 @@
         "style": "A Cyber Security Proxy.",
         "system": "Deva.world.proxy",
         "layout": "default",
-        "emoji": "/assets/devas/proxy/emoji.png",
-        "avatar": "/assets/devas/proxy/avatar.png",
-        "image": "/assets/devas/proxy/image.png",
-        "background": "/assets/devas/proxy/background.png",
+        "emoji": "/assets/emoji.png",
+        "avatar": "/assets/avatar.png",
+        "image": "/assets/image.png",
+        "background": "/assets/background.png",
         "creator": "Quinn Michaels",
         "owner": "Quinn Michaels",
         "caseid": "none",
-        "copyright": "©2025 Quinn Michaels. All rights reserved.",
-        "created": "Saturday, August 30, 2025 - 3:24:53 AM",
-        "modified": "Saturday, August 30, 2025 - 3:24:53 AM"
+        "copyright": "Copyright ©2025 Quinn Michaels. All rights reserved.",
+        "created": "Saturday, August 30, 2025 - 3:24:53 AM"
       }
     },
     "vars": {
@@ -85,7 +117,7 @@
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
         "error": "💣 ERROR!",
-        "ready": "🔏 Ready for Proxy Clearance."
+        "ready": "✅ Proxy Deva Ready"
       },
       "ask": {
         "history": []
