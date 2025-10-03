@@ -40,14 +40,7 @@ const PROXY = new Deva({
     parse(input) {return input.trim();},
     process(input) {return input.trim();},
   },
-  listeners: {
-    'devacore:question'(packet) {
-      this.methods.echo(agent.key, 'q', packet);
-    },
-    'devacore:answer'(packet) {
-      this.methods.echo(agent.key, 'a', packet);
-    }
-  },
+  listeners: {},
   modules: {},
   devas: {},
   func: {},
