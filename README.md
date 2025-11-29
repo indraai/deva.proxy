@@ -1,2 +1,7 @@
 # deva.proxy
 The Proxy Deva
+
+Copyright ©2000-2025 Quinn A Michaels; All rights reserved. 
+Legal Signature Required For Lawful Use.
+Distributed under VLA:43202615894075172756 LICENSE.md
+Friday, November 28, 2025 - 3:19:14 PM

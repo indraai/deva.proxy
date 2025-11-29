@@ -1,7 +1,9 @@
 "use strict";
-// Copyright ©2025 Quinn A Michaels; All rights reserved. 
+// Copyright ©2000-2025 Quinn A Michaels; All rights reserved. 
 // Legal Signature Required For Lawful Use.
-// Distributed under VLA:46458400884752399767 LICENSE.md
+// Distributed under VLA:43202615894075172756 LICENSE.md
+// Friday, November 28, 2025 - 3:19:14 PM
+
 
 // Proxy Deva
 
@@ -31,7 +33,7 @@ const info = {
   copyright: pkg.copyright
 };
 
-const PROXY = new Deva({
+const ProxyDeva = new Deva({
   info,
   agent,
   vars,
@@ -63,5 +65,5 @@ const PROXY = new Deva({
     return reject(err);
   },
 });
-export default PROXY
+export default ProxyDeva
 

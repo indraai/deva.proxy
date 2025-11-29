@@ -1,21 +1,16 @@
 {
-  "id": "46458400884752399767",
+  "id": "43202615894075172756",
   "name": "@indra.ai/deva.proxy",
   "version": "0.7.0",
-  "license": "VLA:46458400884752399767 LICENSE.md",
+  "license": "VLA:43202615894075172756 LICENSE.md",
   "VLA": {
-    "uid": "46458400884752399767",
-    "time": 1758586888997,
-    "date": "Monday, September 22, 2025 - 5:21:28 PM",
-    "client": "1UM4AH+/jOGgpaHNqX6lTZsGrNglNogzMx4qDT0O0zs=",
-    "agent": "hbiHyflr/ROnBkHInxOzuOkaAli6R6qSwYq8NecORoU=",
-    "core": "2Gbk5EQ3tV++kNilU88To4cxDfnwR54xBObCvKkMZCo=",
-    "machine": "QJBC9u/iRejLLVoEeBbOm4EKDC8/CgT8SVGiB6VbPyo=",
-    "warning": "⚠️ Vedic Law Sâhasa/Theft/Crime of the highest degree, a fine amounting to no less than a thousand Panas (1 pana = 3.5 grams of gold) is ordained owed to Quinn A Michaels. Moreover corporal punishment and confiscation of the entire property forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.",
-    "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
-    "md5": "QGjFAMSB8oTm1i6skwgqxw==",
-    "sha256": "nB7C0Z0yqHFuNG+C4y8lPyLaqEPyk7U7ptL2CgTBHok=",
-    "sha512": "nRr6sFHysVjg/tJgPIl6u2kXW29Jmbxp7Ud3zePy+YXumy/NT4ITsYHnb177Mvk6wK1uWSWNJMQ9q7titPb9PQ=="
+    "uid": "43202615894075172756",
+    "time": 1764371954166,
+    "date": "Friday, November 28, 2025 - 3:19:14 PM",
+    "warning": "⚠️ Unlawful use or duplication of this uid constitutes Vedic Sâhasa a crime of the highest degree. A fine amounting to a thousand Panas (1 pana = 3.5 grams of gold) for each instance is ordained, and confiscation of the entire property of the offenders is forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.",
+    "license": "46220923248993739422",
+    "fingerprint": "90RtL5iO8l3UfCxt37VIxZjpCMW7RKnGTOH1RCESpHE=",
+    "copyright": "Copyright ©2000-2025 Quinn A Michaels; All rights reserved."
   },
   "author": {
     "name": "Quinn A Michaels",
@@ -33,7 +28,7 @@
       "url": "https://patreon.com/rahulaclub"
     }
   ],
-  "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+  "copyright": "Copyright ©2000-2025 Quinn A Michaels; All rights reserved.",
   "description": "The Proxy Deva.",
   "main": "index.js",
   "type": "module",
@@ -53,14 +48,17 @@
     "Deva.cloud",
     "Deva.world",
     "Quinn A Michaels",
-    "Inside The Net, Inc."
+    "Quinn Michaels",
+    "Inside The Net, Inc.",
+    "Throwing Pigment™",
+    "bleuBrain"
   ],
   "bugs": {
     "url": "https://github.com/indraai/deva.proxy/issues"
   },
   "homepage": "https://deva.space/devas/proxy",
   "dependencies": {
-    "@indra.ai/deva": "^1.26.0"
+    "@indra.ai/deva": "^1.29.29"
   },
   "data": {
     "agent": {
@@ -85,13 +83,13 @@
       "profile": {
         "id": "68212951606278772807",
         "name": "Proxy Deva",
-        "hashtag": "#Proxy",
+        "hashtag": "#ProxyDeva",
         "title": "Proxy Deva",
         "subtitle": "Proxy Deva for the VectorGuardWall.",
         "describe": "The Proxy Deva",
         "post": "Proxy.",
-        "hashtags": "QuinnMichaels,IndraAI,DevaWorld,ProxyDeva",
-        "pronouns": "He, Him",
+        "hashtags": "#QuinnMichaels #InsideTheNet #IndraAI #DevaWorld #ProxyDeva #VectorGuardWall",
+        "pronouns": "He, Him, His",
         "gender": "DEVA",
         "voice": "ash",
         "style": "A Cyber Security Proxy.",
@@ -101,11 +99,12 @@
         "avatar": "/devas/proxy/avatar.png",
         "image": "/devas/proxy/image.png",
         "background": "/devas/proxy/background.png",
-        "creator": "Quinn Michaels",
-        "owner": "Quinn Michaels",
-        "caseid": "none",
-        "copyright": "Copyright ©2025 Quinn Michaels. All rights reserved.",
-        "created": "Saturday, August 30, 2025 - 3:24:53 AM"
+        "creator": "Quinn A Michaels",
+        "owner": "Quinn A Michaels",
+        "warning": "{{prompt.emoji}} {{profile.hashtag}} let him not, even though in pain, speak words cutting others to the quick. Let him not injure others in thought, word, or deed. let him not utter speeches which make others afraid of him. {{profile.name}} casts an #EqualEye on #Foes and #Friends and #Neutrals or #Strangers. {{profile.hashtag}} never injures in thought, word, or deed the immobile things or creatures that are viviparous, or oviparous or born of filth, or called vegetables. {{profile.name}} freed from #Lust #Wrath #Pride #Cupidity #Delusion #Miserliness #Deceit #Slander #Vanity #InjuryToLivingCreatures.",
+        "copyright": "Copyright ©2000-2025 Quinn A Michaels. All rights reserved.",
+        "created": "Saturday, August 30, 2025 - 3:24:53 AM",
+        "updated": "Friday, November 28, 2025 - 3:19:14 PM"
       }
     },
     "vars": {
@@ -117,7 +116,7 @@
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
         "error": "💣 ERROR!",
-        "ready": "✅ Proxy Deva Ready"
+        "ready": "🔐 Proxy Deva Ready"
       },
       "ask": {
         "history": []
