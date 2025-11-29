@@ -58,7 +58,7 @@
   },
   "homepage": "https://deva.space/devas/proxy",
   "dependencies": {
-    "@indra.ai/deva": "^1.29.29"
+    "@indra.ai/deva": "^1.29.31"
   },
   "data": {
     "agent": {
